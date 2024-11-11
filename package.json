@@ -1,0 +1,16 @@
+{
+  "name": "test-ppa-1706",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prettier:src": "prettier --plugin=prettier-plugin-apex --parser apex src/InsideSrc.cls",
+    "prettier:tests": "prettier --plugin=prettier-plugin-apex --parser apex tests/InsideTests.cls"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "prettier": "3.3.3",
+    "prettier-plugin-apex": "2.2.1"
+  }
+}
